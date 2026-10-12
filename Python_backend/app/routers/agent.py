@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-router =APIRouter(prefix="/api/agents",
+router =APIRouter(prefix="",
     tags=["Agents"],)
 
 @router.get("/api/agent")
